@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	
+<!-- Mirrored from waimai.jinyouapp.com/jingjia/xcx.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Apr 2023 00:40:57 GMT -->
+<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="renderer" content="webkit" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+		<meta name="format-detection" content="telephone=no" />
+		<title>外卖小程序-微信公众号外卖平台开发-微信订餐系统-金优外卖系统</title>
+		<meta name="description" content="金优外卖小程序打造从用户下单支付，到商家接单骑手配送，一站式外卖服务平台。为微信外卖创业者提供微信外卖小程序、微信公众号外卖、外卖APP等外卖系统产品，提供完整的产品技术开发服务，为您提供整套外卖行业创业解决方案。" />
+		<meta name="keywords" content="外卖小程序,外卖小程序开发,微信公众号外卖平台,微信订餐系统" />
+		<link rel="stylesheet" href="../../oto.jinyouapp.com/ac618_com/css/style.css" />
+		<script src="../../oto.jinyouapp.com/ac618_com/js/jquery.js"></script>
+		<script src="../../oto.jinyouapp.com/ac618_com/js/lib.js"></script>
+		<style>
+			.ul-yous li {
+				width: 50% !important;
+			}
+
+			.xcxk {
+				width: 1200px;
+			}
+
+			.gdzj {
+				margin-top: 150px;
+			}
+
+			.youfudong {
+				float: right;
+			}
+
+			.fwysbn {
+				background: url(../../oto.jinyouapp.com/ac618_com/images/hwbbj.jpg) center center no-repeat;
+			}
+
+			.fwys1 {
+				background: url(../../oto.jinyouapp.com/ac618_com/images/fwys1.png);
+			}
+
+			.fwys2 {
+				background: url(../../oto.jinyouapp.com/ac618_com/images/fwys2.png);
+			}
+
+			.fwys3 {
+				background: url(../../oto.jinyouapp.com/ac618_com/images/fwys3.png);
+			}
+
+			.fwys4 {
+				background: url(../../oto.jinyouapp.com/ac618_com/images/fwys4.png);
+			}
+
+			.top {
+				margin-top: 100px;
+			}
+
+			@media only screen and (max-width: 767px) {
+				.ul-yous li {
+					width: 100% !important;
+				}
+
+				.gdzj {
+					margin-top: 60px;
+				}
+			}
+		</style>
+	</head>
+
+	<body class="index">
+	 <!-- 头部 -->
+    <div class="header">
+        <div class="wp">
+		<div class="logo"><div class="logo-h1"><a href="../index.html" title="外卖系统">金优外卖</a></div><p>自己的平台<br>要做就做一流的</p></div>            <span class="menuBtn"></span>
+            <div class="hdr">
+                <div class="nav">
+                    <ul>
+					<li ><a href="../index.html" class="v1" title="金优外卖系统">网站首页</a></li>
+					<li ><a href="wm.html" class="v1">外卖系统</a></li><li ><a href="xy.html" class="v1">校园版</a></li><li ><a href="md.html" class="v1">门店版</a></li><li ><a href="tc.html" class="v1">同城版</a></li><li ><a href="sx.html" class="v1">生鲜版</a></li><li ><a href="gj.html" class="v1">国际版</a></li><li class="on"><a href="xcx.html" class="v1">小程序</a></li>                    </ul>
+                </div>
+                <a target="_blank" href="https://tb.53kf.com/code/client/63aebd7539c726e85a8341a4d9a292e47/5" class="btn-couns" rel="nofollow">V5.1新版</a>
+            </div>
+        </div>
+    </div>
+    <!-- 头部-end -->
+    <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/63aebd7539c726e85a8341a4d9a292e47/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>		<!-- banner -->
+		<div class="banner" style="height:500px;">
+			<div class="slider">
+				<div class="item" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxzt.png);">
+					<div class="wp">
+						<div class="txt">
+							<h3 style="margin-bottom:15px;">外卖小程序</h3>
+							<span style="color: #fff;font-size: 22px;">
+								<p>助力外卖创业者<br>快速搭建外卖小程序平台</p>
+							</span>
+							<a rel="noffow" style="margin-top:30px;" target="_blank" href="https://tb.53kf.com/code/client/63aebd7539c726e85a8341a4d9a292e47/5"
+							 class="btn">产品咨询</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="m-notice">
+            <div class="wp">
+                <h3 class="tit">最新公告</h3>
+                <div class="slider">
+    			    			<div class="item"><a href="http://www.ac618.com/show/p28.html">金优外卖系统，快速实现本地外卖市场多样化！</a></div>
+    			    			<div class="item"><a href="http://www.ac618.com/show/p20.html">外卖系统开发外包，请自备项目需求文档，可好？</a></div>
+    			    			<div class="item"><a href="http://www.ac618.com/show/p1.html">外卖系统会员功能详情介绍</a></div>
+    			                </div>
+            </div>
+        </div>
+		<!-- banner -->
+		<!-- 内容 -->
+		<div class="main">
+			<!-- O2O行业解决方案 -->
+			<!-- 终端展示 -->
+			<div class="row-well ">
+				<div class="wp">
+					<div class="g-tit" style="margin-bottom:1px !important;">
+						<h2>外卖小程序</h2>
+						<p>小程序+公众号一体化外卖创业解决方案</p>
+					</div>
+					<div class="m-apppic">
+
+						<div class="tab-a1">
+							<div class="m_pic1">
+								<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxzd.png" alt="外卖小程序">
+							</div>
+							<div class="m_pic11">
+								<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxzd1.png" alt="外卖小程序">
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- 终端展示 end -->
+			<div class="row-well row-a3">
+				<div class="wp">
+					<div class="g-tit">
+						<h2>亮点功能</h2>
+						<p>我们提供的功能，都经过市场运营验证，可以真正解决您的运营需求！</p>
+					</div>
+					<div class="m-tabbox2 ovh top">
+						<div class="info slick_infor2">
+							<div class="item">
+								<div class="pic-item g-50">
+									<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxgn1.png" alt="营销功能">
+								</div>
+								<div class="txt-item g-50">
+									<div class="txt">
+										<p>丰富的营销功能助力平台获客、裂变拉新、下单激励、提升复购，通过精准化营销积累平台用户，让客户流失说再见！</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="m-tabbox2 ovh gdzj gdzj1 ">
+						<div class="info slick_infor2">
+							<div class="item">
+								<div class="pic-item g-50 youfudong">
+									<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxgn2.png" alt="会员管理">
+								</div>
+								<div class="txt-item g-50">
+									<div class="txt">
+										<p>用户分层管理，触达精准用户，培养平台忠实粉丝，让新用户在参与平台活动的过程中，逐渐成为平台忠实顾客！</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="m-tabbox2 ovh gdzj">
+						<div class="info slick_infor2">
+							<div class="item">
+								<div class="pic-item g-50">
+									<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxgn3.png" alt="平台功能">
+								</div>
+								<div class="txt-item g-50">
+									<div class="txt">
+										<p>强大的后台管理功能，充分满足外卖市场运营需求，监管商家、代理、骑手更加透明，业务处理更实用！</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 售后服务让你运营无忧 -->
+				<div class="row-well row-a5 top">
+					<div class="wp">
+						<div class="g-tit">
+							<h2>合作支持</h2>
+							<p>从系统搭建到上线运营，我们提供全流程支持！</p>
+						</div>
+						<ul class="ul-a5">
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna1.png);"></span>
+									<h3>平台搭建</h3>
+									<p>快速搭建外卖小程序+公众号<br>建立完整外卖体系</p>
+								</div>
+							</li>
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna2.png);"></span>
+									<h3>品牌定制</h3>
+									<p>根据客户需求设计小程序UI<br>策划及设计联手塑造品牌形象</p>
+								</div>
+							</li>
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna3.png);"></span>
+									<h3>平台推广</h3>
+									<p>小程序上线引流指导<br>通过推广工具完成平台推广</p>
+								</div>
+							</li>
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna4.png);"></span>
+									<h3>用户营销</h3>
+									<p>用户分层运营管理<br>实现精准营销，提升消费转化</p>
+								</div>
+							</li>
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna5.png);"></span>
+									<h3>7x24小时售后</h3>
+									<p>全天售后服务支持<br>为您的系统保驾护航</p>
+								</div>
+							</li>
+							<li>
+								<div class="con">
+									<span class="icon" style="background-image: url(../../oto.jinyouapp.com/ac618_com/images/wmxcxgna6.png);"></span>
+									<h3>产品迭代</h3>
+									<p>产品定期版本更新<br>让平台时刻立足行业前沿</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- 内容 -->
+			<!-- 公告&动态 -->
+			<div class="row-well row-a8">
+				<div class="wp">
+					<div class="g-tit">
+						<h2>外卖小程序动态</h2>
+					</div>
+					<div class="m-a8">
+						<div class="item">
+							<div class="pic">
+
+								<img src="../../oto.jinyouapp.com/ac618_com/picture/wmxcxbj1.png" alt="外卖小程序">
+								<div class="tit">
+									<h3>外卖小程序</h3>
+									<p>产品中心、版本动态</p>
+								</div>
+
+							</div>
+							<ul class="ul-nlist">
+								<li>
+									<span>2020-03-06 18:17:44</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1208.html" target="_blank">开发微信外卖小程序</a>
+								</li>
+								<li>
+									<span>2020-02-14 17:42:34</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1192.html" target="_blank">自建外卖小程序的好处</a>
+								</li>
+								<li>
+									<span>2020-02-14 16:56:30</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1191.html" target="_blank">外卖小程序开发方式</a>
+								</li>
+								<li>
+									<span>2020-02-02 15:57:38</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1181.html" target="_blank">聊一聊外卖小程序的潜力</a>
+								</li>
+								<li>
+									<span>2020-01-20 17:07:01</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1178.html" target="_blank">为什么外卖小程序会火起来?</a>
+								</li>
+								<li>
+									<span>2020-01-19 10:16:32</span>
+									<a href="http://www.waimai101.com/waimaixiaochengxu/1175.html" target="_blank">商家开发一个外卖小程序有什么用?</a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="item">
+							<div class="pic">
+
+								<img src="../../oto.jinyouapp.com/ac618_com/picture/p-r8-2.jpg" alt="产品动态">
+								<div class="tit">
+									<h3>产品动态</h3>
+									<p>专注、口碑、极致</p>
+								</div>
+
+							</div>
+							<ul class="ul-nlist">
+								<li>
+									<span>2020-04-07 15:05:37</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1234.html" target="_blank">国内外卖市场现状，低线城市成为新的突破点</a>
+								</li>
+								<li>
+									<span>2020-04-03 15:55:22</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1233.html" target="_blank">外卖平台创业还有机会吗?外卖行业未来发展趋势如何</a>
+								</li>
+								<li>
+									<span>2020-04-02 15:24:39</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1232.html" target="_blank">外卖小程序扫码点餐功能</a>
+								</li>
+								<li>
+									<span>2020-04-01 16:32:09</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1231.html" target="_blank">来看一看外卖系统上的会员功能</a>
+								</li>
+								<li>
+									<span>2020-03-31 17:35:38</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1230.html" target="_blank">外卖平台上的红包功能分析</a>
+								</li>
+								<li>
+									<span>2020-03-30 17:36:46</span>
+									<a href="http://www.waimai101.com/xinwendongtai/1229.html" target="_blank">如今在县城做一个外卖平台是否可行?</a>
+								</li>
+
+
+							</ul>
+						</div>
+						<div class="item">
+							<div class="pic">
+
+								<img src="../../oto.jinyouapp.com/ac618_com/picture/p-r8-3.jpg" alt="最新活动">
+								<div class="tit">
+									<h3>最新活动</h3>
+									<p>行业动态、新闻公告</p>
+								</div>
+
+							</div>
+							<ul class="ul-nlist">
+								<li>
+									<span>2020-03-25 15:59:23</span>
+									<a href="http://www.waimai101.com/waimaixitong/1225.html" target="_blank">开发个外卖app需要多少钱?</a>
+								</li>
+								<li>
+									<span>2020-01-14 19:58:06</span>
+									<a href="http://www.waimai101.com/waimaixitong/1163.html" target="_blank">外卖平台分析报告</a>
+								</li>
+								<li>
+									<span>2020-01-14 18:06:38</span>
+									<a href="http://www.waimai101.com/waimaixitong/1162.html" target="_blank">美团外卖为什么能成功?因为它融合了用户增长思维</a>
+								</li>
+								<li>
+									<span>2020-01-06 14:43:41</span>
+									<a href="http://www.waimai101.com/waimaixitong/1152.html" target="_blank">开发个类似美团、饿了么的软件多少钱?</a>
+								</li>
+								<li>
+									<span>2019-12-11 11:22:32</span>
+									<a href="http://www.waimai101.com/waimaixitong/1119.html" target="_blank">微信外卖系统贵不贵，哪家系统最好?</a>
+								</li>
+								<li>
+									<span>2019-12-10 17:55:54</span>
+									<a href="http://www.waimai101.com/waimaixitong/1118.html" target="_blank">前置仓模式，是不是生鲜电商的最佳选择?</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 内容-end -->
+		<!-- 底部 -->
+		<div class="m-cons">
+			<a rel="noffow" target="_blank" href="https://tb.53kf.com/code/client/63aebd7539c726e85a8341a4d9a292e47/5">马上咨询，了解产品价格</a>
+		</div>
+			<!-- 底部 -->
+    <div class="footer"  id="contact">
+        <div class="wp">
+            <div class="fd-con">
+                <dl class="d1">
+                    <dt>联系我们</dt>
+                    <dd>
+                        <p>售前咨询：13370557982</p>
+                        <p>400热线：4000-500-369</p>
+                        <p>7 X 24 小时在线服务</p>
+                    </dd>
+                </dl>
+                <dl class="d4">
+                    <dt>客服微信</dt>
+                    <dd>
+                        <div class="qr"><img src="../../oto.jinyouapp.com/ac618_com/picture/qr.jpg" alt="客服微信"></div>
+                    </dd>
+                </dl>
+                <dl class="d3">
+                    <dt>解决方案</dt>
+                    <dd>
+                        <a href="wm.html">外卖系统专业版</a>
+                        <a href="sx.html">生鲜外卖系统</a>
+                        <a href="xy.html">校园外卖系统</a>
+                        <a href="sqtg.html">社区团购系统</a>
+                    </dd>
+                </dl>
+                <dl class="d4">
+                    <dd>
+                        <a href="gj.html">海外外卖系统</a>
+                        <a href="tc.html">同城外卖系统</a>
+                        <a href="xcx.html">外卖小程序</a>
+                        <a href="md.html">连锁门店系统</a>
+                        <a href="pt.html">跑腿系统</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="fd-copy">
+                <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="nofollow" style="color:#ccc;">鲁ICP备15044658号</a> | 金优外卖版权所有</p>
+                <p>总部地址：山东省济南市历下区力高国际3号楼7层</p>
+            </div>
+        </div>
+    </div>
+    <!-- 底部-end -->
+    <script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = '../../zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = '../../push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+    </script>
+    <link rel="stylesheet" href="../../oto.jinyouapp.com/ac618_com/css/tabbar.css"/>
+    <div class="m-tabbar">
+        <ul class="ul-tabbar">
+            <li>
+                <a href="http://www.ac618.com/" rel="nofollow">
+                    <div class="icon">
+                        <img src="../../oto.jinyouapp.com/ac618_com/o2o/images/tabbar-f01.png" alt="">
+                    </div>
+                    <h3>首页</h3>
+                </a>
+            </li>
+            <li>
+                <a href="wm.html" rel="nofollow">
+                    <div class="icon">
+                        <img src="../../oto.jinyouapp.com/ac618_com/o2o/images/tabbar-f02.png" alt="">
+                    </div>
+                    <h3>外卖系统</h3>
+                </a>
+            </li>
+            <li>
+                <a href="http://www.ac618.com/cases/cases.html" rel="nofollow">
+                    <div class="icon">
+                        <img src="../../oto.jinyouapp.com/ac618_com/o2o/images/tabbar-f03.png" alt="">
+                    </div>
+                    <h3>客户案例</h3>
+                </a>
+            </li>
+            <li>
+                <a href="https://tb.53kf.com/code/client/63aebd7539c726e85a8341a4d9a292e47/5" rel="nofollow">
+                    <div class="icon">
+                        <img src="../../oto.jinyouapp.com/ac618_com/o2o/images/tabbar-f04.png" alt="">
+                    </div>
+                    <h3>在线咨询</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/63aebd7539c726e85a8341a4d9a292e47/5";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>		<link rel="stylesheet" href="../../oto.jinyouapp.com/ac618_com/css/slick.css">
+		<script src="../../oto.jinyouapp.com/ac618_com/js/slick.min.js"></script>
+		<script>
+			$(document).ready(function() {
+
+				var win_w = $(this).width();
+				$('.banner .slider').slick({
+					dots: true,
+					arrows: false,
+					autoplay: true,
+					slidesToShow: 1,
+					fade: true,
+					autoplaySpeed: 5000,
+					pauseOnHover: false,
+					lazyLoad: 'ondemand'
+				});
+
+				if (win_w > 1100) {
+					$('.slick_infor1').slick({
+						dots: false,
+						arrows: false,
+						autoplay: false,
+						swipe: false,
+						fade: true,
+						infinite: false
+					});
+					$('.slick_infor2').slick({
+						dots: false,
+						arrows: false,
+						autoplay: false,
+						swipe: false,
+						fade: true,
+						infinite: false
+					});
+
+					$('.js_slick_tab1 li').click(function(event) {
+						/* Act on the event */
+						var ind = $(this).index();
+						$('.slick_infor1').slick('slickGoTo', ind);
+					});
+					$('.js_slick_tab2 li').click(function(event) {
+						/* Act on the event */
+						var ind = $(this).index();
+						$('.slick_infor2').slick('slickGoTo', ind);
+					});
+				} else {
+
+					$('.slick_infor1').slick({
+						dots: true,
+						arrows: false,
+						autoplay: false,
+						customPaging: function() {
+							return '';
+						},
+					});
+
+					$('.slick_infor2').slick({
+						dots: true,
+						arrows: false,
+						autoplay: false,
+						customPaging: function() {
+							return '';
+						},
+
+					});
+
+					$('.ul-a7').slick({
+						dots: true,
+						arrows: false,
+						autoplay: false,
+						customPaging: function() {
+							return '';
+						},
+
+					});
+
+				}
+
+
+
+
+
+				$('.m-notice .slider').slick({
+					dots: false,
+					arrows: false,
+					infinite: true,
+					autoplay: true,
+					autoplaySpeed: 4000,
+					speed: 300,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					responsive: [{
+							breakpoint: 1024,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 1
+							}
+						},
+						{
+							breakpoint: 600,
+							settings: {
+								slidesToShow: 1,
+								slidesToScroll: 1
+							}
+						}
+					]
+				});
+			});
+		</script>
+		<!--百度推送-->
+		<script>
+			(function() {
+				var bp = document.createElement('script');
+				var curProtocol = window.location.protocol.split(':')[0];
+				if (curProtocol === 'https') {
+					bp.src = '../../zz.bdstatic.com/linksubmit/push.js';
+				} else {
+					bp.src = '../../push.zhanzhang.baidu.com/push.js';
+				}
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(bp, s);
+			})();
+		</script>
+		<!--百度推送-->
+	</body>
+
+<!-- Mirrored from waimai.jinyouapp.com/jingjia/xcx.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Apr 2023 00:41:00 GMT -->
+</html>

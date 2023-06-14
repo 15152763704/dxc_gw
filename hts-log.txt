@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 07 Apr 2023 08:39:34 at http://waimai.jinyouapp.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "zh, en, *" http://waimai.jinyouapp.com/ -O1 "C:\Users\Hp-\Desktop\dxc_gw\ww" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/sxwm.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/xywm.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/tcwm.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/gjwm.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/mdwm.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/wm/wmxcx.html (from waimai.jinyouapp.com/)
+08:41:00	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/cases/cases.html (from waimai.jinyouapp.com/)
+08:41:11	Warning: 	file not stored in cache due to bogus state (incomplete type with OK (200), size 0): https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif
+08:41:11	Error: 	"Not Found" (404) at link waimai.jinyouapp.com/jingjia/lists_tags.htm (from waimai.jinyouapp.com/jingjia/sx.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 37 seconds : 348 links scanned, 339 files written (18688010 bytes overall) [18426644 bytes received at 189965 bytes/sec], 1121818 bytes transferred using HTTP compression in 29 files, ratio 22%, 15.3 requests per connection
+(8 errors, 1 warnings, 0 messages)

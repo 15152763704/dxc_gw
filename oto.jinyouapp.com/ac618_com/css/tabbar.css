@@ -1,0 +1,48 @@
+.m-tabbar{
+    background: rgba(0,0,0,0.5);
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+.ul-tabbar{
+    overflow: hidden;
+}
+.ul-tabbar li{
+    width: 25%;
+    float: left;
+}
+.ul-tabbar a{
+    padding: 5px 0 0;
+    display: block;
+}
+.ul-tabbar .icon{
+    margin-bottom: 3px;
+    height: 22px;
+}
+.ul-tabbar .icon img{
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+    display: block;
+}
+.ul-tabbar h3{
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@media only screen and (max-width: 1199px) {
+    /*******************************
+        -------[=公用]-------
+    ********************************/
+    .m-tabbar{
+        display: block;
+    }
+}
